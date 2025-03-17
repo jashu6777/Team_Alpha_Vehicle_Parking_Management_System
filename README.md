@@ -61,7 +61,6 @@ Before starting, ensure you have the following installed:
 ```bash
 git clone 
 cd parking-management-system
-cd parking-management-system
 ```
 
 ### 2. Backend Setup
