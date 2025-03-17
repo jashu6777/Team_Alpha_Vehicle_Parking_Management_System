@@ -59,7 +59,7 @@ Before starting, ensure you have the following installed:
 
 ### 1. Clone the Repository
 ```bash
-git clone 
+git clone https://github.com/jashu6777/Team_Alpha_Vehicle_Parking_Management_System.git
 cd parking-management-system
 ```
 
