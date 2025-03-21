@@ -1,9 +1,11 @@
+
 # Team_Alpha_Vehicle_Parking_Management_System
 This project is about Vehicle Parking Management System.
 
 # Vehicle Parking Management System
 
 The **Vehicle Parking Management System** is a web-based application designed to efficiently manage parking slots. It allows users to book parking slots, view availability, and manage bookings. Administrators have functionalities to oversee users, parking slots, and reservations. The system is built using **Node.js, Express.js, MongoDB, and React.js**.
+
 
 ## Table of Contents
 - [Features](#features)
