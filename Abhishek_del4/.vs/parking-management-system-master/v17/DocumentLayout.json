@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\Downloads\\parking-management-system-master\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\Downloads\\parking-management-system-master\\parking-management-system-master\\api\\routes\\authRoute.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:parking-management-system-master\\api\\routes\\authRoute.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\Downloads\\parking-management-system-master\\parking-management-system-master\\api\\models\\UserModel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:parking-management-system-master\\api\\models\\UserModel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\Downloads\\parking-management-system-master\\parking-management-system-master\\api\\models\\ParkingModel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:parking-management-system-master\\api\\models\\ParkingModel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\Downloads\\parking-management-system-master\\parking-management-system-master\\api\\models\\BookingModel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:parking-management-system-master\\api\\models\\BookingModel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\Downloads\\parking-management-system-master\\parking-management-system-master\\api\\controllers\\userController.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:parking-management-system-master\\api\\controllers\\userController.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\Downloads\\parking-management-system-master\\parking-management-system-master\\api\\controllers\\parkingController.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:parking-management-system-master\\api\\controllers\\parkingController.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\Downloads\\parking-management-system-master\\parking-management-system-master\\api\\controllers\\bookingController.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:parking-management-system-master\\api\\controllers\\bookingController.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\Downloads\\parking-management-system-master\\parking-management-system-master\\api\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:parking-management-system-master\\api\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserModel.js",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\parking-management-system-master\\parking-management-system-master\\api\\models\\UserModel.js",
+              "RelativeDocumentMoniker": "parking-management-system-master\\api\\models\\UserModel.js",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\parking-management-system-master\\parking-management-system-master\\api\\models\\UserModel.js",
+              "RelativeToolTip": "parking-management-system-master\\api\\models\\UserModel.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-17T02:28:44.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ParkingModel.js",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\parking-management-system-master\\parking-management-system-master\\api\\models\\ParkingModel.js",
+              "RelativeDocumentMoniker": "parking-management-system-master\\api\\models\\ParkingModel.js",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\parking-management-system-master\\parking-management-system-master\\api\\models\\ParkingModel.js",
+              "RelativeToolTip": "parking-management-system-master\\api\\models\\ParkingModel.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-17T02:28:43.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookingModel.js",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\parking-management-system-master\\parking-management-system-master\\api\\models\\BookingModel.js",
+              "RelativeDocumentMoniker": "parking-management-system-master\\api\\models\\BookingModel.js",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\parking-management-system-master\\parking-management-system-master\\api\\models\\BookingModel.js",
+              "RelativeToolTip": "parking-management-system-master\\api\\models\\BookingModel.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-17T02:28:42.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\parking-management-system-master\\parking-management-system-master\\api\\README.md",
+              "RelativeDocumentMoniker": "parking-management-system-master\\api\\README.md",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\parking-management-system-master\\parking-management-system-master\\api\\README.md",
+              "RelativeToolTip": "parking-management-system-master\\api\\README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-03-17T02:27:08.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "authRoute.js",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\parking-management-system-master\\parking-management-system-master\\api\\routes\\authRoute.js",
+              "RelativeDocumentMoniker": "parking-management-system-master\\api\\routes\\authRoute.js",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\parking-management-system-master\\parking-management-system-master\\api\\routes\\authRoute.js",
+              "RelativeToolTip": "parking-management-system-master\\api\\routes\\authRoute.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-17T02:27:05.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "userController.js",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\parking-management-system-master\\parking-management-system-master\\api\\controllers\\userController.js",
+              "RelativeDocumentMoniker": "parking-management-system-master\\api\\controllers\\userController.js",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\parking-management-system-master\\parking-management-system-master\\api\\controllers\\userController.js",
+              "RelativeToolTip": "parking-management-system-master\\api\\controllers\\userController.js",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-17T02:27:00.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "parkingController.js",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\parking-management-system-master\\parking-management-system-master\\api\\controllers\\parkingController.js",
+              "RelativeDocumentMoniker": "parking-management-system-master\\api\\controllers\\parkingController.js",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\parking-management-system-master\\parking-management-system-master\\api\\controllers\\parkingController.js",
+              "RelativeToolTip": "parking-management-system-master\\api\\controllers\\parkingController.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-17T02:26:58.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "bookingController.js",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\parking-management-system-master\\parking-management-system-master\\api\\controllers\\bookingController.js",
+              "RelativeDocumentMoniker": "parking-management-system-master\\api\\controllers\\bookingController.js",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\parking-management-system-master\\parking-management-system-master\\api\\controllers\\bookingController.js",
+              "RelativeToolTip": "parking-management-system-master\\api\\controllers\\bookingController.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-17T02:26:45.574Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
