@@ -7,8 +7,14 @@ dotenv.config();
 const app = express();
 // ✅ Add Custom CORS Middleware (Fix Preflight Issues)
 const allowedOrigins = [
+<<<<<<< HEAD
   "https://parkingsystem-gules.vercel.app",
   "http://localhost:5173",
+=======
+  "http://localhost:5173",
+  "http://localhost:5174",
+  "http://localhost:5175",
+>>>>>>> fc6b43a (MY WORK)
 ];
 
 app.use((req, res, next) => {
@@ -16,7 +22,11 @@ app.use((req, res, next) => {
   if (allowedOrigins.includes(origin)) {
     res.header("Access-Control-Allow-Origin", origin);
   }
+<<<<<<< HEAD
   res.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
+=======
+  res.header("Access-Control-Allow-Methods", "GET, POST, PUT,PATCH,  DELETE, OPTIONS");
+>>>>>>> fc6b43a (MY WORK)
   res.header("Access-Control-Allow-Headers", "Content-Type, Authorization");
   res.header("Access-Control-Allow-Credentials", "true");
 
@@ -29,6 +39,7 @@ app.use((req, res, next) => {
 
 // ✅ Enable JSON parsing
 app.use(express.json());
+<<<<<<< HEAD
 
 // ✅ Debugging: Log All Incoming Requests
 // app.use((req, res, next) => {
@@ -38,18 +49,37 @@ app.use(express.json());
 //   }
 //   next();
 // });
+=======
+ 
+>>>>>>> fc6b43a (MY WORK)
 
 // ✅ Import Routes
 import authRoute from "./routes/authRoute.js";
 import userRoute from "./routes/userRoute.js";
 import parkingRoutes from "./routes/parkingRoutes.js";
 import bookingRoutes from "./routes/bookingRoutes.js";
+<<<<<<< HEAD
+=======
+import statsRoute from "./routes/statsRoute.js";
+import { manualTrigger } from "./cronJobs.js";
+>>>>>>> fc6b43a (MY WORK)
 
 // ✅  Routes
 app.use("/api/auth", authRoute);
 app.use("/api/user", userRoute);
 app.use("/api/parking", parkingRoutes);
 app.use("/api/bookings", bookingRoutes);
+<<<<<<< HEAD
+=======
+app.use("/api/stats", statsRoute);
+
+
+app.get('/api/test/check-overstays', async (req, res) => {
+  await manualTrigger();
+  res.json({ message: "Manual overstay check completed" });
+});
+
+>>>>>>> fc6b43a (MY WORK)
 
 app.get("/", (req, res) => {
   res.send("Hello! From ParkingSystem API");

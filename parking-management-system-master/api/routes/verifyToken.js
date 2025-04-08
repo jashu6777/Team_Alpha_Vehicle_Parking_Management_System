@@ -15,8 +15,12 @@ export const verifyToken = (req, res, next) => {
     }
 
     // Attach the decoded user data to req.user
+<<<<<<< HEAD
     req.user = decoded;
     // console.log("Decoded Token Payload:", decoded); // Debugging
+=======
+    req.user = decoded; 
+>>>>>>> fc6b43a (MY WORK)
     next();
   });
 };
