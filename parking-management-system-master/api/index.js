@@ -7,9 +7,14 @@ dotenv.config();
 const app = express();
 // ✅ Add Custom CORS Middleware (Fix Preflight Issues)
 const allowedOrigins = [
+<<<<<<< HEAD
   "http://localhost:5173",
   "http://localhost:5174",
   "http://localhost:5175",
+=======
+  "https://parkingsystem-gules.vercel.app",
+  "http://localhost:5173",
+>>>>>>> 48b65db39459e580e67410d9bb1a70a56ebe9506
 ];
 
 app.use((req, res, next) => {
@@ -17,7 +22,11 @@ app.use((req, res, next) => {
   if (allowedOrigins.includes(origin)) {
     res.header("Access-Control-Allow-Origin", origin);
   }
+<<<<<<< HEAD
   res.header("Access-Control-Allow-Methods", "GET, POST, PUT,PATCH,  DELETE, OPTIONS");
+=======
+  res.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
+>>>>>>> 48b65db39459e580e67410d9bb1a70a56ebe9506
   res.header("Access-Control-Allow-Headers", "Content-Type, Authorization");
   res.header("Access-Control-Allow-Credentials", "true");
 
@@ -30,21 +39,37 @@ app.use((req, res, next) => {
 
 // ✅ Enable JSON parsing
 app.use(express.json());
+<<<<<<< HEAD
  
+=======
+
+// ✅ Debugging: Log All Incoming Requests
+// app.use((req, res, next) => {
+//   if (process.env.NODE_ENV !== "production") {
+// console.log(`Incoming request: ${req.method} ${req.path}`);
+// console.log("Headers:", req.headers);
+//   }
+//   next();
+// });
+>>>>>>> 48b65db39459e580e67410d9bb1a70a56ebe9506
 
 // ✅ Import Routes
 import authRoute from "./routes/authRoute.js";
 import userRoute from "./routes/userRoute.js";
 import parkingRoutes from "./routes/parkingRoutes.js";
 import bookingRoutes from "./routes/bookingRoutes.js";
+<<<<<<< HEAD
 import statsRoute from "./routes/statsRoute.js";
 import { manualTrigger } from "./cronJobs.js";
+=======
+>>>>>>> 48b65db39459e580e67410d9bb1a70a56ebe9506
 
 // ✅  Routes
 app.use("/api/auth", authRoute);
 app.use("/api/user", userRoute);
 app.use("/api/parking", parkingRoutes);
 app.use("/api/bookings", bookingRoutes);
+<<<<<<< HEAD
 app.use("/api/stats", statsRoute);
 
 
@@ -53,6 +78,8 @@ app.get('/api/test/check-overstays', async (req, res) => {
   res.json({ message: "Manual overstay check completed" });
 });
 
+=======
+>>>>>>> 48b65db39459e580e67410d9bb1a70a56ebe9506
 
 app.get("/", (req, res) => {
   res.send("Hello! From ParkingSystem API");
