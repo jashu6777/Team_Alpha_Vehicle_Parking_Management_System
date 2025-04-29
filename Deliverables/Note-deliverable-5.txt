@@ -2,7 +2,7 @@ Deliverable-5 Files:
 1. Deliveravle_5.pdf - Contains the deliverable 5 report
    -Available in the Deliverables folder
 2. Meeting Minutes:
-   - Updated project meeting minutes have been uploaded under the "Meetings Minutes" folder and named 'Team Alpha_Minutes_of_Meetings.pdf'
+   - Updated project meeting minutes have been uploaded under the "Meetings Minutes" folder and named 'Team Alpha_Minutes_of_Meetings_3.pdf'
 3. Core_functionalities_of_Phase3_Team_Alpha - Contains the core codes and functionalities of phase two
    - In the main branch file 
 4. Source Code - This folder contains all the working code for phase 3 of the project implementation
